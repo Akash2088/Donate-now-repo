@@ -24,16 +24,18 @@ color:  white;
 }
 .button{
     height: 69px;
-    width: 202px;
+    width: 230px;
     background-color: #004b87;
     font-size: 22px;
     font-weight: 800;
     color: white;
     border: none;
 border-radius: 10px;
+justify-content: center;
+align-items: center;
 }
 .button:hover{
-    background-color: rgb(170, 71, 71);
+    background-color: orangered;
 }
 .top-area{
     text-align: center;
@@ -42,9 +44,11 @@ border-radius: 10px;
     color: black;
   font-size: xxx-large;
   margin: -23px;
+  margin-top: 25px;
 }
 .donate-paragraph{
     color: black;
+    text-align: center;
 }
 .amount-area{
     display: flex;
@@ -59,4 +63,91 @@ border-radius: 10px;
     font-weight: bold;
     background: floralwhite;
 }
-
+.amount:hover{
+    border-radius: 10px;
+color: white;
+background:rgb(186, 35, 35);
+}
+#donate-today, button{
+  text-align: center;
+  margin-top: 13px;
+}
+hr{
+    width: 75%;
+}
+.planning{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-paragraph{
+    color: black
+}
+#education-img{
+    height: 52px;
+    width: 88px;
+}
+.plan{
+    background:  lightgoldenrodyellow;
+    margin: 20px;
+    padding: 70px 40px;
+    border-radius: 10px;
+}
+#shelter{
+    background: bisque;
+}
+#education{
+    background: navajowhite;
+}
+.help{
+    display: flex;
+    margin-top: 50px;
+}
+.half-width{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.half-width, h1 p button{
+  margin-left: 200px;
+ 
+}
+.contribute-button{
+    height: 70px;
+    width: 284px;
+    background-color: #004b87;
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.contribute-button:hover{
+    background-color: orangered;
+}
+#get-update, h1{
+text-align: center;
+margin-top: 80px;
+}
+.form{
+    height: 200px ;
+    width:50% ;
+    background: antiquewhite ;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+#email{
+    height: 55px;
+    width: 350px;
+margin-top: 75px;
+background: rgb(204, 199, 199);
+font-size: large;
+font-weight: bold;
+}
+.subscribe-btn{
+    height: 62px;
+    width:180px;
+    font-size: large;
+margin-right: px;
+background: orangered;
+color: white;
+}
