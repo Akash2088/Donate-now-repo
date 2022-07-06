@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#top-header{
+background-image: url("/images/donation3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+text-align: center;
+}
+
+.banner-text, h1{
+    font-size: 70px;
+    color: white;
+
+}
+banner-text, p{
+    font-size: 25px;
+    font-weight: ;
+color:  white;
+}
+.button{
+    height: 69px;
+    width: 202px;
+    background-color: #004b87;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    border: none;
+border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(170, 71, 71);
+}
+
