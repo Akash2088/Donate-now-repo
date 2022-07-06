@@ -9,12 +9,13 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 800px;
 text-align: center;
+margin-bottom: 100px;
 }
 
 .banner-text, h1{
     font-size: 70px;
     color: white;
-
+    padding: 25px;
 }
 banner-text, p{
     font-size: 25px;
@@ -33,5 +34,29 @@ border-radius: 10px;
 }
 .button:hover{
     background-color: rgb(170, 71, 71);
+}
+.top-area{
+    text-align: center;
+}
+.donate-header{
+    color: black;
+  font-size: xxx-large;
+  margin: -23px;
+}
+.donate-paragraph{
+    color: black;
+}
+.amount-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount{
+    border: 2px solid floralwhite;
+    padding: 42px 40px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background: floralwhite;
 }
 
